@@ -1,3 +1,4 @@
+//This program sends runners a message for the event they signed up for and the days they have left to train.
 // Select random event 
 const getRandEvent = () => {
 const random = Math.floor(Math.random() * 3);
