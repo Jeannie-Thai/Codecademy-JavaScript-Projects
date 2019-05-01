@@ -14,14 +14,14 @@ const menu = {
     get desserts() {
       return this._courses.desserts;
     },
-    set appetizers(appertizers) {
+    set appetizers(appetizers) {
       this._courses.appetizers = appetizers;
     },
     set mains(mains) {
-        this._courses.mains = mains;
+      this._courses.mains = mains;
     },
     set desserts(desserts) {
-          this._courses.desserts = desserts;
+      this._courses.desserts = desserts;
     },
     get courses(){
       return {
@@ -40,9 +40,9 @@ const menu = {
     },
     //Create a method to get a random dish from a course on the menu
     getRandomDishFromCourses (courseName) {
-        const dishes = this._courses[courseName];
+      const dishes = this._courses[courseName];
       const randomIndex = Math.floor(Math.random() * dishes.length);
-          return dishes[randomIndex];
+        return dishes[randomIndex];
     },
     //Create a function which will automatically generate a three-course meal 
     generateRandomMeal (){
@@ -50,7 +50,7 @@ const menu = {
       const mains = this.getRandomDishFromCourses('mains');
       const desserts = this.getRandomDishFromCourses('desserts');
       const totalPrice = appetizers.price + mains.price + desserts.price;
-      return `Your meal is ${appetizers.name}, ${mains.name}, and ${desserts.name}. The price is ${totalPrice}.`;
+        return `Your meal is ${appetizers.name}, ${mains.name}, and ${desserts.name}. The price is ${totalPrice}.`;
     }
 };
 
