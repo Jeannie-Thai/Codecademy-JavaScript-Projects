@@ -18,10 +18,10 @@ body {
   display: inline;
   font-size: 18px;
   color: #00ffff;
-  font-family: 'Work Sans'
+  font-family: 'Work Sans';
 }
 
-.instructions.row {
+.instructions-row {
   margin: 0 auto;
   width: 400px;
 }
