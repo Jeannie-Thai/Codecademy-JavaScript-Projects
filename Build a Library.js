@@ -1,4 +1,4 @@
-//Objective: create a parent class named Media with three subclasses: Book, Movie, and CD to build a library system.
+//Objective: create a parent class named Media with three subclasses: Book, Movie, and CD in a library system.
 //create a parent class Media
 class Media{
   constructor(title){
