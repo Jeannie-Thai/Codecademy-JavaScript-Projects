@@ -19,7 +19,7 @@ class Media{
     return this._ratings;
   };
   
-//create a method toggleCheckOutStatus that changes the valuse saved to the _isCheckedOut property. If value is true, then change it to false. If the value is false, then change it to true.
+//create a method toggleCheckOutStatus that changes the values saved to the _isCheckedOut property. If value is true, then change it to false. If the value is false, then change it to true.
   toggleCheckOutStatus(){
     this._isCheckedOut = !this._isCheckedOut;
   };
