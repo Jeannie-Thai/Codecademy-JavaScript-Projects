@@ -1,3 +1,4 @@
+//Objective: Create classes for primary, middle, and high schools where each will inherit from a parent School class for a school digital catalog to hold quick reference material for each school in the city.
 //create parent class for Primary, Middle and High subclasses
 class School {
 	constructor(name, level, numberOfStudents) {
